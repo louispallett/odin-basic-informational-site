@@ -1,0 +1,16 @@
+{
+  "name": "odin-basic-informational-site",
+  "version": "1.0.0",
+  "description": "Part of The Odin Project's NodeJS course",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
