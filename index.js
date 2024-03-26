@@ -30,7 +30,7 @@ const server = http.createServer((req, res) => {
         case ".jpg":
             contentType = "image/jpg";
             break;
-    }
+    } 
 
     fs.readFile(filePath, (err, content) => {
         if (err) {
